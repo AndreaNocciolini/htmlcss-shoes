@@ -26,6 +26,13 @@ html {
 .background-color-yellow {
     background-color: yellow;
 }
+
+.buttons-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
 /* End Containers */
 
 /* Positions */
@@ -45,6 +52,7 @@ html {
 p {
     text-align: center;
     font-size: xx-large;
+    font-weight: bolder;
 }
 /* End Positions */
 
@@ -60,3 +68,17 @@ p {
     color: green;
 }
 /* Enf Images and Promotional Phrases */
+
+/* Buttons */
+.menù-list {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menù-list li {
+    display: inline-block;
+}
+
+.menù-list li a {
+    text-decoration: none;
+}
