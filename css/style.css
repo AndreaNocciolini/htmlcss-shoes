@@ -8,7 +8,7 @@ html {
     font-size: 100%;
 }
 
-/* Container */
+/* Containers */
 .container {
     width: 100%;
     height: 100vh;
@@ -26,6 +26,8 @@ html {
 .background-color-yellow {
     background-color: yellow;
 }
+/* End Containers */
+
 /* Positions */
 .position-center {
     position: absolute;
@@ -43,9 +45,18 @@ html {
 p {
     text-align: center;
     font-size: xx-large;
-    color: yellow;
 }
-/* Images */
+/* End Positions */
+
+/* Images and Promotional Phrases */
 .shoes-img {
     width: 100%;
 }
+.promotional-phrase-yellow {
+    color: yellow;
+}
+
+.promotional-phrase-green {
+    color: green;
+}
+/* Enf Images and Promotional Phrases */
