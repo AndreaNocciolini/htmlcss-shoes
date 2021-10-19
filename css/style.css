@@ -91,3 +91,8 @@ p {
     display: inline-block;
     width: 2em;
 }
+
+ul li:hover {
+    box-shadow: 2px 2px 12px 7px;
+}
+/* End Buttons */
